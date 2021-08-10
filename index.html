@@ -10,6 +10,10 @@
                 border-radius: 15px;
                 
             }
+            .lista_ul{
+                background-color: cornsilk;
+                border-radius: 15px;
+            }
             p{
                 text-align: center;
                 font-style: italic;
@@ -20,6 +24,13 @@
             }
             footer{
                 text-align: end;
+            }
+            body{
+                background-color: rgb(164, 224, 243);
+            }
+            a{
+                text-decoration: none;
+                color: black;
             }
 
         </style>
@@ -34,12 +45,26 @@
         <p>
             Meu jogo favorito é <b>2048</b>.
         </p>
+
         <h3>Meus projetos</h3>
-        <u>
-             <li>
-            <a href="https://github.com/alcimarbmx/gerenciamento_reserva_salas" target="blank">Projeto para gerenciamento de laboratórios</a>
+        <ul class="lista_ul">
+            <li >
+                <a href="https://github.com/alcimarbmx/gerenciamento_reserva_salas" target="blank">Sistema para gerenciamento de laboratórios</a>
+                <ol>Sistema feito com PHP, MySQL e Bootstrap</ol>
             </li>
-        </u>
+            <li >
+                <a href="https://github.com/alcimarbmx/jogodavelha" target="blank">Jogo da velha em C++</a>
+                <ol>Esse jogo foi feito utilizando vetores e condicionais com a linguagem C++.</ol>
+            </li>
+            <li >
+                <a href="https://github.com/alcimarbmx/jogo-da-velha-em-java" target="blank">Jogo da velha em Java</a>
+                <ol>Esse jogo com interface gráfica em Java.</ol>
+            </li>
+            <li >
+                <a href="https://github.com/alcimarbmx/ArduinoFollower" target="blank">Projeto ArduinoFollwer</a>
+                <ol>Projeto feito com a plataforma Arduino, sensores infvermelho e display LCD. </ol>
+            </li>
+        </ul>
     </body>
     <footer>
         <p>Copyright Alcimar Tec</p>
