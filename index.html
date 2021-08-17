@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head><title>Alcimar BMX</title>
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/5/css/bootstrap.min.css" rel="stylesheet">
     
         <style>
             h2{
@@ -10,11 +11,21 @@
                 border-radius: 15px;
                 
             }
-            .lista_ul{
+            ul{
                 background-color: cornsilk;
                 border-radius: 15px;
+                border-collapse: inherit;
+                border-left: 1px solid  blue;
+                border-left-width: 2em;
+                list-style: square;
+                
+            }
+            .lista_ul{
+                border-left: 1px solid yellow;
+                border-left-width: 2em;
             }
             p{
+                word-break: break-all;
                 text-align: center;
                 font-style: italic;
             }
@@ -31,6 +42,11 @@
             a{
                 text-decoration: none;
                 color: black;
+                border-radius: 15px;
+            }
+            h3{
+                border-left: 1px solid  blueviolet;
+                border-left-width: 2em;
             }
 
         </style>
@@ -45,9 +61,34 @@
         <p>
             Meu jogo favorito é <b>2048</b>.
         </p>
-
-        <h3>Meus projetos</h3>
+        <p>
+           <a href="https://api.whatsapp.com/send?phone=5584998637490&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os%20de%20manuten%C3%A7%C3%A3o%20de%20computadores." target="blank">
+            Clique aqui para falar comigo no WhatsApp
+            <img src="icons/whatsapp (1).png" width="20px" height="20px">
+        </a>
+        </p>
+        <h3>Serviços</h3>
         <ul class="lista_ul">
+            <li>Manutenção preventiva
+                <ol>Limpeza de gabinete e fonte de alimentação</ol>
+            </li>
+            
+            <li>Troca de componentes
+                <ol>Substituição de componentes danificados</ol>
+            </li>
+            <li>Instalação de programas de escritório
+                <ol>Pacote Office</ol>
+                <ol>Pacote LibreOffice</ol>
+            </li>
+            <li>Instalação de impressoras</li>
+            <li>Formatação de computadores
+                <ol>Windows 7, 8, 8.1, 10</ol>
+                <ol>Linux Ubuntu, Debian, Mint</ol>
+            </li>
+        </ul>
+
+        <h3>Meus projetos no GitHub</h3>
+        <ul>
             <li >
                 <a href="https://github.com/alcimarbmx/gerenciamento_reserva_salas" target="blank">Sistema para gerenciamento de laboratórios</a>
                 <ol>Sistema feito com PHP, MySQL e Bootstrap</ol>
@@ -62,12 +103,12 @@
             </li>
             <li >
                 <a href="https://github.com/alcimarbmx/ArduinoFollower" target="blank">Projeto ArduinoFollwer</a>
-                <ol>Projeto feito com a plataforma Arduino, sensores infvermelho e display LCD. </ol>
+                <ol>Projeto feito com a plataforma Arduino, sensores infravermelho e display LCD. </ol>
             </li>
         </ul>
     </body>
     <footer>
-        <p>Copyright Alcimar Tec</p>
+        <p>Copyright Alcimar Tecnology</p>
     </footer>
     
 </html>
