@@ -6,10 +6,6 @@
         <style>
             h2{
                 text-align: center;
-                color: blue;
-                background-color: khaki;
-                border-radius: 15px;
-                
             }
             ul{
                 background-color: cornsilk;
@@ -17,17 +13,21 @@
                 border-collapse: inherit;
                 border-left: 1px solid  blue;
                 border-left-width: 2em;
+                border-right: 1px solid blue;
+                border-right-width: 2em;
                 list-style: square;
                 
             }
             .lista_ul{
                 border-left: 1px solid yellow;
                 border-left-width: 2em;
+                border-right: 1px solid yellow;
+                border-right-width: 2em;
             }
             p{
                 word-break: break-all;
                 text-align: center;
-                font-style: italic;
+                font-style: italic;            
             }
             hr{
                 color: blue;
@@ -36,37 +36,57 @@
             footer{
                 text-align: end;
             }
-            body{
-                background-color: rgb(164, 224, 243);
-            }
+           
             a{
                 text-decoration: none;
-                color: black;
-                border-radius: 15px;
+                color: black;                
             }
             h3{
-                border-left: 1px solid  blueviolet;
+                border-left: 1px initial;
                 border-left-width: 2em;
+                border-right: 1px initial;
+                border-right-width: 2em;
+                border-radius: 4px;
+            }
+            div{ 
+                border-left: 50px initial;
+                border-left-width: 2em;  
+            }
+            .img-profile{
+                border-radius: 100px;
+                float: left;
+                text-align: center;
+            }
+            img{
+                text-align: center;
             }
 
         </style>
     
     </head>
     <body>
+        <div>
+            <img class="img-profile" src="images/photo_profile.jpg" width="150" height="150">
         <h2>Oi, meu nome é Alcimar! </h2>
-        <hr>
+    
+    
         <p>
-            Possui graduação em Licenciatura em Informática pelo IFRN.
+            Possuo graduação em Licenciatura em Informática pelo IFRN.
         </p>
         <p>
-            Meu jogo favorito é <b>2048</b>.
+            Meu jogo favorito é <b><a href="https://play2048.co/" target="blank">2048</a></b>.
         </p>
         <p>
            <a href="https://api.whatsapp.com/send?phone=5584998637490&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os%20de%20manuten%C3%A7%C3%A3o%20de%20computadores." target="blank">
-            Clique aqui para falar comigo no WhatsApp
-            <img src="icons/whatsapp (1).png" width="20px" height="20px">
-        </a>
+            WhatsApp  
+            <img src="icons/whatsapp.png" width="20px" height="20px">
+            </a>
+            <a href="https://instagram.com/alcimar_bmx" target="blank">
+                Instagram  
+                <img src="icons/instagram.png" width="20px" height="20px">
+                </a>
         </p>
+    </div>
         <h3>Serviços</h3>
         <ul class="lista_ul">
             <li>Manutenção preventiva
